@@ -19,8 +19,8 @@ s.close()
 
 print(msg)
 
-# while True:
-#     c, addr = s.accept()
-#     print(addr)
-#     s.send("欢迎")
-#     c.close()
+while True:
+    c, addr = s.accept()
+    print(addr)
+    s.send("欢迎")
+    c.close()
